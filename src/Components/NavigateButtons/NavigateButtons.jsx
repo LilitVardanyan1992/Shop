@@ -30,7 +30,7 @@ const NavigateButtons = () => {
                                 size="lg"
                                 variant="outlined"
                                 ripple={true}
-                                className="hover:bg-green-300 duration-300 ease-in-out"
+                                className="hover:bg-gray-300 duration-300 ease-in-out"
                                 onClick={() => dispatch(filterProducts(button))}
                             >{button}</Button>
                         </Link>

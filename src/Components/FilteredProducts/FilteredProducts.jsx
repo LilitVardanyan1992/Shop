@@ -27,7 +27,7 @@ const FilteredProducts = () => {
                             text={product.text}
                             img={product.img}
                             price={product.price}
-                            colors={product.colors}
+                            colors={product.color}
                         />
                     </div> 
                     )
