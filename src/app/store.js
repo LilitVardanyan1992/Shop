@@ -1,13 +1,15 @@
 import { configureStore, applyMiddleware } from '@reduxjs/toolkit';
 import sliderReducer from "../features/slices/sliderSlice";
 import productReducer from '../features/slices/productsSlice';
-import thunk  from "redux-thunk";;
+import cartReducer from "../features/slices/cartSlice";
+
 
 export const store = configureStore({
   reducer: {
     slider: sliderReducer,
     products: productReducer,
+    cart: cartReducer
   },
-},  applyMiddleware(thunk));
+});
 
 
